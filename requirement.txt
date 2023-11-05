@@ -1,0 +1,30 @@
+step-1:
+    Installing virtualenv:
+    pip intall virtualenv
+step-2:
+    Test your installation:
+    virtualenv --version
+step-3:
+    Namming virtual Env:
+    Virtualenv Room
+step-4:
+    source room/bin/activate
+
+step-5:
+    Deactivating virtualenv Env:
+    deactivate
+
+--------------------------------------------------------
+
+geeting django project 
+step-1:
+    django-admin startproject first_project
+step-2:
+    cd first_project
+step-3:
+    python manage.py migrate
+step-4:
+    python manage.py runserver 
+step-5:
+    create views.py in first_project
+    
